@@ -1,0 +1,353 @@
+body{
+	background-color:#F5F6CE;
+	text-align: left;
+	margin:0px;
+	padding:0px;
+	width:100%;		
+}
+
+#Centered{
+	background-color:white;	
+	text-align: centre;
+	width:1080px;
+	margin:0 auto;			
+}
+
+input[type="text"]{
+	background: none;
+	color:black;	
+	border: none;
+	width: 185px;
+}
+
+nav{
+	text-align:center;	
+	float:left;
+	width: 150px;		
+	padding-right:160px;	
+}
+
+a {
+    color: black;
+	text-decoration: none;
+}
+
+#sectionI{
+	
+	float: left;
+	width: 100%; 
+	background-image: url("Images\\background1.png");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	padding-top:60px;	
+}
+
+ul{
+	list-style-type: none;	
+    color: black; 
+}
+
+ul li{	
+	border:2px black;
+	border-style:solid;	
+	width:150px;
+	margin:10px;	
+}
+
+ul li:hover{
+	background-color:black;
+	color:white;
+	cursor: pointer;
+}
+
+article{
+	float: left;
+	font-size:12px;
+	font-family: Verdana;
+	margin-right: 10px;
+	padding-left:50px;	
+}
+
+.intro{
+	width:300px;
+}
+
+#sectionII{
+	float:left;
+	padding-top: 50px;
+	background-color:white;
+	padding-left:80px;
+	padding-right:160px;  
+}
+
+.linksArea{
+	float:left;
+	margin-left:60px;
+}
+
+#privhireLink, #cinemaLink, #eventsLink, #gamesLink{
+	font-size: 20px;
+	font-family: "Comic Sans MS";
+	position: relative;
+	color: white;
+	top:-145px;
+	left:20px;
+}
+
+#cinemaLink, #gamesLink{
+	left:60px;
+}
+
+#eventsLink{
+	top:-80px;
+	left:70px;
+}
+
+.dropMenu{
+	padding-right: 30px;
+	border-radius:50px;
+	border: 2px solid white;
+}
+
+#sectionIII{
+	float: left;
+	background-image: url("Images\\background2.png");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	padding-bottom:60px;	
+	width: 100%;	  
+}
+
+h2{
+	padding-left:100px;	
+	color:#d3729e;
+	font-family: Verdana;
+}
+
+#SignUp{
+	padding-left:100px;	
+	font-family: Verdana;
+	font-size:15px;
+}
+
+#joinformI{
+	float: left;
+	text-align:left;
+	width: 100%;
+	margin-left:150px;
+	margin-bottom:70px; 
+}
+.formSectionI{ 
+	float: left;
+	width: 350px;
+	color:white; 
+	border:3px white;
+	border-style:solid;	
+	height: 25px; 
+	margin-bottom: 15px;
+	margin-right:10px;
+	padding-top:5px;
+	position: relative;
+}
+
+.labelI{
+	float:left;
+	color:white;
+	width:80px; 
+}
+
+#butSubmitI{
+	float:left;
+	position: relative;
+	bottom: -70px;
+	right: 0px;
+	background-color: #81F79F;
+	border-radius: 50px;
+	border: 5px solid #81F79F;
+	padding: 15px;
+	color:white;
+	font-family: "Comic Sans MS";
+	font-size:15px;
+}
+#butSubmitI:hover{
+	cursor: pointer;
+}
+
+#twitterArea{
+	float:left;
+	background-image:url("Images\\twitter.png");
+	background-repeat: no-repeat;
+	background-position: 50% -19px;	
+	width:100%;	
+	height:170px;	
+	margin-top:50px;
+	margin-bottom:70px;
+}
+
+#replyM, #retweetM, #favouriteM, #spiagM{
+	float:left;
+	font-size: 12px;
+	position: relative;
+	color: yellow;
+	top:130px;
+	left:305px;
+	margin-right:55px;
+}
+
+#spiagM{
+	color: white;
+	font-size: 15px;
+	top:0px;
+	left:480px;
+}
+
+#leftA, #rightA{
+	float:left;
+	position:relative;
+	top:30px;
+}
+
+#rightA{
+	float:right;
+}
+
+#instaPhotos{
+	padding-bottom:5px;
+	border-bottom: 8px solid white;
+	width:95%;
+	float:left;
+}
+
+#instagramArea{
+	float:left;
+	height:190px;
+	margin-bottom:30px;
+}
+
+#instagramIcon{
+	float:left;
+	position:relative;
+	top:-30px;
+	left:515px;	
+	background-color:white;		
+	border-radius: 50px;
+	border: 4px solid white;
+	padding:5px;
+}
+
+#facebookArea{
+	float:left;
+	width:100%;	
+	height:300px;
+}
+
+.fbLikes{
+	float:left;
+	width:100%	
+}
+
+#icon {
+	float:left;
+	line-height: 40px;
+	padding-left: 50px;
+	background: url("Images\\likeImage.png") no-repeat;
+}
+
+#icon:hover{
+	cursor: pointer;
+}
+
+footer{
+	float:left;	
+	font-size:10px;
+	font-family: Verdana;
+	width:100%;
+	padding-top:20px;	
+	text-align:center;
+	background-color:white;	
+	border-top: 2px solid black;	
+	border-bottom: 2px solid black;	
+	margin-bottom:50px;	
+}
+
+#topArea{
+	float: left;
+	width: 100%;	
+}
+
+#leftLine, #rightLine{
+	float:left;
+	position:relative;
+	top:24px;
+}
+
+#rightLine{
+	left:285px;
+}
+
+
+.footerArea{
+	font-size:10px;
+	font-family: Verdana; 
+	float:left;
+	padding-left:80px;		
+	margin-top:30px;
+}
+
+address{
+	margin-bottom:20px;
+}
+
+.butOutline{
+	color:white;
+	background-color:black;		
+	border-radius: 50px;
+	height:20px;
+	width:100%;
+	padding-top: 6px;	
+}
+
+.imgbackColor{
+	background-color:black;
+	border:black solid;
+	border-radius: 50px;
+}
+
+#joinformII{
+	float: left;
+	text-align:left;
+	font-size:14px;
+	margin-bottom:40px;
+}
+
+.formSectionII{
+	margin:5px 5px 10px 0px;
+	text-align:left;
+	padding:5px;
+	width:270px;
+	height:20px;
+	border:3px black;
+	border-style:solid;	
+}
+
+.labelII{
+	font-size:12px;
+	font-family: Verdana; 
+	float:left;
+	color:black;	
+	width:70px;	
+}
+
+#butSubmitII{
+	float:right;	
+	background-color: black;
+	border-radius: 50px;	
+	padding: 10px;
+	color:white;
+	font-family: "Comic Sans MS";
+	font-size:12px;
+}	
+
+#butSubmitII:hover{
+	cursor: pointer;
+}	
